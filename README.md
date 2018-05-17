@@ -9,8 +9,8 @@
     </a>
     <img src="https://img.shields.io/badge/Swift-4.1-FFAC45.svg"
          alt="Swift: 4.1">
-    <img src="https://img.shields.io/badge/Platforms-iOS-FF69B4.svg"
-        alt="Platforms: iOS">
+    <img src="https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS-FF69B4.svg"
+         alt="Platforms: iOS | macOS | tvOS | watchOS">
     <a href="https://github.com/Chappted/JLS-API-Client-Swift/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/License-GPL--3.0-lightgrey.svg"
              alt="License: GPL-3.0">
