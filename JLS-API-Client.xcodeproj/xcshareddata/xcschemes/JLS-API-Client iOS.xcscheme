@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A102BD3D1F02355A000C6B38"
-               BuildableName = "JLS-API-Client.framework"
+               BuildableName = "JLSAPIClient.framework"
                BlueprintName = "JLS-API-Client iOS"
                ReferencedContainer = "container:JLS-API-Client.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A102BD3D1F02355A000C6B38"
-            BuildableName = "JLS-API-Client.framework"
+            BuildableName = "JLSAPIClient.framework"
             BlueprintName = "JLS-API-Client iOS"
             ReferencedContainer = "container:JLS-API-Client.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A102BD3D1F02355A000C6B38"
-            BuildableName = "JLS-API-Client.framework"
+            BuildableName = "JLSAPIClient.framework"
             BlueprintName = "JLS-API-Client iOS"
             ReferencedContainer = "container:JLS-API-Client.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A102BD3D1F02355A000C6B38"
-            BuildableName = "JLS-API-Client.framework"
+            BuildableName = "JLSAPIClient.framework"
             BlueprintName = "JLS-API-Client iOS"
             ReferencedContainer = "container:JLS-API-Client.xcodeproj">
          </BuildableReference>

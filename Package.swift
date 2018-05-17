@@ -5,8 +5,8 @@ let package = Package(
     name: "JLS-API-Client",
     products: [
         .library(
-            name: "JLS-API-Client",
-            targets: ["JLS-API-Client"]
+            name: "JLSAPIClient",
+            targets: ["JLSAPIClient"]
         )
     ],
     dependencies: [
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "JLS-API-Client",
+            name: "JLSAPIClient",
             dependencies: [
 //                "HandySwift",
 //                "HandyUIKit"

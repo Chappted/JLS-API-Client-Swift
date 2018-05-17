@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "JLS-API-Client"
+  s.name         = "JLSAPIClient"
   s.version      = "0.1.0"
   s.summary      = "JLS:API Client written in Swift for Apple platforms."
 

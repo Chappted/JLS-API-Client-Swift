@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A102BD481F02355A000C6B38 /* JlsApiClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* JlsApiClient.framework */; };
-		A102BD661F023573000C6B38 /* JlsApiClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* JlsApiClient.framework */; };
-		A102BD821F023582000C6B38 /* JlsApiClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* JlsApiClient.framework */; };
+		A102BD481F02355A000C6B38 /* JLSAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* JLSAPIClient.framework */; };
+		A102BD661F023573000C6B38 /* JLSAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* JLSAPIClient.framework */; };
+		A102BD821F023582000C6B38 /* JLSAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* JLSAPIClient.framework */; };
 		A102BDB31F0238E8000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
 		A102BDB41F0238E8000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
 		A102BDB51F0238E9000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
@@ -23,6 +23,34 @@
 		A102BE001F023E33000C6B38 /* JLS-API-Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* JLS-API-Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE011F023E33000C6B38 /* JLS-API-Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* JLS-API-Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE021F023E34000C6B38 /* JLS-API-Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* JLS-API-Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51E2F1A20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */; };
+		C51E2F1B20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */; };
+		C51E2F1C20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */; };
+		C51E2F1D20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */; };
+		C51E2F1F20AE045800FB027A /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1E20AE045800FB027A /* BaseObject.swift */; };
+		C51E2F2020AE045800FB027A /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1E20AE045800FB027A /* BaseObject.swift */; };
+		C51E2F2120AE045800FB027A /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1E20AE045800FB027A /* BaseObject.swift */; };
+		C51E2F2220AE045800FB027A /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F1E20AE045800FB027A /* BaseObject.swift */; };
+		C51E2F2920AE049C00FB027A /* ArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2820AE049C00FB027A /* ArrayObject.swift */; };
+		C51E2F2A20AE049C00FB027A /* ArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2820AE049C00FB027A /* ArrayObject.swift */; };
+		C51E2F2B20AE049C00FB027A /* ArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2820AE049C00FB027A /* ArrayObject.swift */; };
+		C51E2F2C20AE049C00FB027A /* ArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2820AE049C00FB027A /* ArrayObject.swift */; };
+		C51E2F2E20AE053900FB027A /* ErrorObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */; };
+		C51E2F2F20AE053900FB027A /* ErrorObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */; };
+		C51E2F3020AE053900FB027A /* ErrorObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */; };
+		C51E2F3120AE053900FB027A /* ErrorObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */; };
+		C51E2F3320AE055000FB027A /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3220AE055000FB027A /* ErrorObject.swift */; };
+		C51E2F3420AE055000FB027A /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3220AE055000FB027A /* ErrorObject.swift */; };
+		C51E2F3520AE055000FB027A /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3220AE055000FB027A /* ErrorObject.swift */; };
+		C51E2F3620AE055000FB027A /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3220AE055000FB027A /* ErrorObject.swift */; };
+		C51E2F3820AE05A800FB027A /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3720AE05A800FB027A /* Relation.swift */; };
+		C51E2F3920AE05A800FB027A /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3720AE05A800FB027A /* Relation.swift */; };
+		C51E2F3A20AE05A800FB027A /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3720AE05A800FB027A /* Relation.swift */; };
+		C51E2F3B20AE05A800FB027A /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3720AE05A800FB027A /* Relation.swift */; };
+		C51E2F3D20AE060800FB027A /* ManyRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3C20AE060800FB027A /* ManyRelation.swift */; };
+		C51E2F3E20AE060800FB027A /* ManyRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3C20AE060800FB027A /* ManyRelation.swift */; };
+		C51E2F3F20AE060800FB027A /* ManyRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3C20AE060800FB027A /* ManyRelation.swift */; };
+		C51E2F4020AE060800FB027A /* ManyRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E2F3C20AE060800FB027A /* ManyRelation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,13 +119,13 @@
 /* Begin PBXFileReference section */
 		000E616F2086425500C0638C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0085926E2046FD1B00AB529F /* beak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beak.swift; sourceTree = "<group>"; };
-		A102BD3E1F02355A000C6B38 /* JlsApiClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JlsApiClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102BD3E1F02355A000C6B38 /* JLSAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD471F02355A000C6B38 /* JLS-API-Client-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLS-API-Client-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD5D1F023573000C6B38 /* JlsApiClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JlsApiClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102BD5D1F023573000C6B38 /* JLSAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD651F023573000C6B38 /* JLS-API-Client-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLS-API-Client-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD791F023582000C6B38 /* JlsApiClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JlsApiClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102BD791F023582000C6B38 /* JLSAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BD811F023582000C6B38 /* JLS-API-Client-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLS-API-Client-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD951F02358E000C6B38 /* JLS-API-Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "JLS-API-Client.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102BD951F02358E000C6B38 /* JLSAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLSAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BDA31F02387A000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A102BDB01F0238BD000C6B38 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		A102BDB21F0238BD000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +143,13 @@
 		A15AD1201F0240C9004D7ED3 /* JLS-API-Client.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "JLS-API-Client.podspec"; sourceTree = "<group>"; };
 		A15AD1211F02447E004D7ED3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A15AD1241F0262D1004D7ED3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObjectProtocol.swift; sourceTree = "<group>"; };
+		C51E2F1E20AE045800FB027A /* BaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
+		C51E2F2820AE049C00FB027A /* ArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayObject.swift; sourceTree = "<group>"; };
+		C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorObjectProtocol.swift; sourceTree = "<group>"; };
+		C51E2F3220AE055000FB027A /* ErrorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorObject.swift; sourceTree = "<group>"; };
+		C51E2F3720AE05A800FB027A /* Relation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
+		C51E2F3C20AE060800FB027A /* ManyRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyRelation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD481F02355A000C6B38 /* JlsApiClient.framework in Frameworks */,
+				A102BD481F02355A000C6B38 /* JLSAPIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD661F023573000C6B38 /* JlsApiClient.framework in Frameworks */,
+				A102BD661F023573000C6B38 /* JLSAPIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD821F023582000C6B38 /* JlsApiClient.framework in Frameworks */,
+				A102BD821F023582000C6B38 /* JLSAPIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,13 +222,13 @@
 		A102BD3F1F02355A000C6B38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A102BD3E1F02355A000C6B38 /* JlsApiClient.framework */,
+				A102BD3E1F02355A000C6B38 /* JLSAPIClient.framework */,
 				A102BD471F02355A000C6B38 /* JLS-API-Client-iOS-Tests.xctest */,
-				A102BD5D1F023573000C6B38 /* JlsApiClient.framework */,
+				A102BD5D1F023573000C6B38 /* JLSAPIClient.framework */,
 				A102BD651F023573000C6B38 /* JLS-API-Client-macOS-Tests.xctest */,
-				A102BD791F023582000C6B38 /* JlsApiClient.framework */,
+				A102BD791F023582000C6B38 /* JLSAPIClient.framework */,
 				A102BD811F023582000C6B38 /* JLS-API-Client-tvOS-Tests.xctest */,
-				A102BD951F02358E000C6B38 /* JLS-API-Client.framework */,
+				A102BD951F02358E000C6B38 /* JLSAPIClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +254,13 @@
 		A102BDA01F02387A000C6B38 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				C51E2F2820AE049C00FB027A /* ArrayObject.swift */,
+				C51E2F1E20AE045800FB027A /* BaseObject.swift */,
+				C51E2F1920AE038F00FB027A /* BaseObjectProtocol.swift */,
+				C51E2F3220AE055000FB027A /* ErrorObject.swift */,
+				C51E2F2D20AE053900FB027A /* ErrorObjectProtocol.swift */,
+				C51E2F3C20AE060800FB027A /* ManyRelation.swift */,
+				C51E2F3720AE05A800FB027A /* Relation.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -419,7 +461,7 @@
 			);
 			name = "JLS-API-Client iOS";
 			productName = "JLS-API-Client";
-			productReference = A102BD3E1F02355A000C6B38 /* JlsApiClient.framework */;
+			productReference = A102BD3E1F02355A000C6B38 /* JLSAPIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD461F02355A000C6B38 /* JLS-API-Client iOS Tests */ = {
@@ -457,7 +499,7 @@
 			);
 			name = "JLS-API-Client macOS";
 			productName = "JLS-API-Client macOS";
-			productReference = A102BD5D1F023573000C6B38 /* JlsApiClient.framework */;
+			productReference = A102BD5D1F023573000C6B38 /* JLSAPIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD641F023573000C6B38 /* JLS-API-Client macOS Tests */ = {
@@ -495,7 +537,7 @@
 			);
 			name = "JLS-API-Client tvOS";
 			productName = "JLS-API-Client tvOS";
-			productReference = A102BD791F023582000C6B38 /* JlsApiClient.framework */;
+			productReference = A102BD791F023582000C6B38 /* JLSAPIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD801F023582000C6B38 /* JLS-API-Client tvOS Tests */ = {
@@ -533,7 +575,7 @@
 			);
 			name = "JLS-API-Client watchOS";
 			productName = "JLS-API-Client watchOS";
-			productReference = A102BD951F02358E000C6B38 /* JLS-API-Client.framework */;
+			productReference = A102BD951F02358E000C6B38 /* JLSAPIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -712,6 +754,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51E2F3D20AE060800FB027A /* ManyRelation.swift in Sources */,
+				C51E2F1F20AE045800FB027A /* BaseObject.swift in Sources */,
+				C51E2F2920AE049C00FB027A /* ArrayObject.swift in Sources */,
+				C51E2F3820AE05A800FB027A /* Relation.swift in Sources */,
+				C51E2F2E20AE053900FB027A /* ErrorObjectProtocol.swift in Sources */,
+				C51E2F1A20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */,
+				C51E2F3320AE055000FB027A /* ErrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +776,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51E2F3E20AE060800FB027A /* ManyRelation.swift in Sources */,
+				C51E2F2020AE045800FB027A /* BaseObject.swift in Sources */,
+				C51E2F2A20AE049C00FB027A /* ArrayObject.swift in Sources */,
+				C51E2F3920AE05A800FB027A /* Relation.swift in Sources */,
+				C51E2F2F20AE053900FB027A /* ErrorObjectProtocol.swift in Sources */,
+				C51E2F1B20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */,
+				C51E2F3420AE055000FB027A /* ErrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,6 +798,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51E2F3F20AE060800FB027A /* ManyRelation.swift in Sources */,
+				C51E2F2120AE045800FB027A /* BaseObject.swift in Sources */,
+				C51E2F2B20AE049C00FB027A /* ArrayObject.swift in Sources */,
+				C51E2F3A20AE05A800FB027A /* Relation.swift in Sources */,
+				C51E2F3020AE053900FB027A /* ErrorObjectProtocol.swift in Sources */,
+				C51E2F1C20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */,
+				C51E2F3520AE055000FB027A /* ErrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +820,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51E2F4020AE060800FB027A /* ManyRelation.swift in Sources */,
+				C51E2F2220AE045800FB027A /* BaseObject.swift in Sources */,
+				C51E2F2C20AE049C00FB027A /* ArrayObject.swift in Sources */,
+				C51E2F3B20AE05A800FB027A /* Relation.swift in Sources */,
+				C51E2F3120AE053900FB027A /* ErrorObjectProtocol.swift in Sources */,
+				C51E2F1D20AE038F00FB027A /* BaseObjectProtocol.swift in Sources */,
+				C51E2F3620AE055000FB027A /* ErrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,7 +909,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chappted.$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = JlsApiClient;
+				PRODUCT_NAME = JLSAPIClient;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -899,7 +969,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chappted.$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = JlsApiClient;
+				PRODUCT_NAME = JLSAPIClient;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;

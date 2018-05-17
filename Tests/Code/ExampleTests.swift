@@ -3,7 +3,7 @@
 //  Copyright © 2017 Chappted. All rights reserved.
 //
 
-@testable import JlsApiClient
+@testable import JLSAPIClient
 import XCTest
 
 class ExampleTests: XCTestCase {
